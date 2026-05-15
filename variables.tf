@@ -4,6 +4,12 @@ variable "location" {
   default     = "centralus"
 }
 
+variable "vm_size" {
+  description = "Azure VM size"
+  type        = string
+  default     = "Standard_B2s"
+}
+
 variable "resource_group_name" {
   description = "Resource group name"
   type        = string
