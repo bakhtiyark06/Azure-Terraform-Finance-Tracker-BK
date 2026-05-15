@@ -1,7 +1,7 @@
 variable "location" {
   description = "Azure region for resources"
   type        = string
-  default     = "centralus"
+  default     = "eastus"
 }
 
 variable "vm_size" {
