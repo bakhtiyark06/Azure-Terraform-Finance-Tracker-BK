@@ -1,13 +1,13 @@
 variable "location" {
   description = "Azure region for resources"
   type        = string
-  default     = "centralus"
+  default     = "eastus"
 }
 
 variable "vm_size" {
   description = "Azure VM size"
   type        = string
-  default     = "Standard_B1ms"
+  default     = "Standard_D2s_v3"
 }
 
 variable "resource_group_name" {
